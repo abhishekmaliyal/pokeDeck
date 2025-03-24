@@ -5,9 +5,7 @@ export default function SearchPage() {
   return (
     <>
     <Topbar/>
-      <div className=" flex w-[100%] h-screen justify-center">
-        <div className="left">pokemon overview</div>
-        <div className="right">pokemon stats</div>
+      <div className="pt-28 px-40 border2 border-black w-[100%] h-screen justify-center bg-purple-100 overflow-hidden">
         <PokemonData />
       </div>
     </>

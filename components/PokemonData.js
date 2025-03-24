@@ -64,20 +64,21 @@ export default function PokemonData() {
   }, [pokemonName]);
 
   return (
-    <div className="cartoon pokemon-info max-w-md mx-auto p-4">
+    <>
       <PokemonSearch onSearch={handleSearch} />
-
-      {isLoading ? (
-        <div className="flex justify-center p-8">Loading Pokémon data...</div>
-      ) : error ? (
-        <div className="text-red-500 p-4">{error}</div>
-      ) : pokemon.name ? (
-        <PokemonDisplay pokemon={pokemon} />
-      ) : (
-        <div className="cartoon text-center p-8 text-gray-500">
-          Enter a Pokémon name or ID to see details
-        </div>
-      )}
-    </div>
+      <div className="pokemon-info p-4">
+        {isLoading ? (
+          <div className="flex justify-center p-8">Loading Pokémon data...</div>
+        ) : error ? (
+          <div className="text-red-500 p-4">{error}</div>
+        ) : pokemon.name ? (
+          <PokemonDisplay pokemon={pokemon} />
+        ) : (
+          <div className="cartoon text-center p-8 text-gray-500">
+            Enter a Pokémon name or ID to see details
+          </div>
+        )}
+      </div>
+    </>
   );
 }

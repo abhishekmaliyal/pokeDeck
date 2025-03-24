@@ -11,7 +11,7 @@ export default function Page() {
           Get To Know Your Pokémon ...
         </div>
         <div className=" pokemons-images  flex items-center justify-start px-40 pt-10">
-          <Image width={800} height={800} alt="pokemon image" src="/pokemon.png"></Image>
+          <Image width={800} height={800} alt="pokemon image" src="/images/pokemon.png"></Image>
           <div className="search flex items-end justify-start py-8 px-20 w-[50%] mx-20 h-80">
             <Link href="pages/SearchPage">
               <button className="rounded-3xl border-2 border-purple-600 bg-purple-300 h-20 w-60 text-xl ">
