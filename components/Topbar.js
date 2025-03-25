@@ -6,7 +6,7 @@ export default function Topbar() {
     <>
       <div className="fixed inset-x-4 my-6 mx-20 rounded-2xl  backdrop-blur-lg">
         <nav className="p-4 bg-gray-400/20 border-2 border-gray-800 flex items-center justify-between rounded-2xl">
-          <h1 className="title text-2xl">Pokémon</h1>
+          <Link href="/"><h1 className="title text-2xl">Pokémon</h1></Link>
           <ul className="flex items-center justify-between gap-4">
             <li>
               <Link href="/pages/About">About</Link>
