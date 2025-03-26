@@ -70,12 +70,12 @@ export default function PokemonData() {
         {isLoading ? (
           <div className="flex justify-center p-8">Loading Pokémon data...</div>
         ) : error ? (
-          <div className="text-red-500 p-4">{error}</div>
+          <div className="text-red-500 p-8 text-center">{error}</div>
         ) : pokemon.name ? (
           <PokemonDisplay pokemon={pokemon} />
         ) : (
           <div className="cartoon text-center p-8 text-gray-500">
-            Enter a Pokémon name or ID to see details
+            Enter a Pokémon name to see details
           </div>
         )}
       </div>

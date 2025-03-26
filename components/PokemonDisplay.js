@@ -70,7 +70,7 @@ export default function PokemonDisplay({ pokemon }) {
                     <p className="capitalize font-medium">{stat.name.replace("-", " ")}</p>
                     <div className="w-full bg-gray-200 rounded-full h-2.5">
                       <div
-                        className="bg-blue-600 h-2.5 rounded-full"
+                        className="bg-green-600 h-2.5 rounded-full"
                         style={{ width: `${Math.min(100, (stat.value / 150) * 100)}%` }}
                       ></div>
                     </div>
