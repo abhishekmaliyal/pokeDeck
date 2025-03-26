@@ -1,4 +1,4 @@
-LINK = "pokedeckinfor.netlify.app"
+LINK = "pokedeckinfo.netlify.app"
 
 -- homepage ✅
 -- searchpage ✅
