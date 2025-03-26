@@ -5,4 +5,4 @@ LINK = "pokedeckinfo.netlify.app"
 -- aboutpage ✅
 -- contactpage ✅
 
--- reative to mobile screen ❌
+-- reactive to mobile screen ❌
