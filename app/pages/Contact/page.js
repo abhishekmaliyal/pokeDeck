@@ -16,7 +16,7 @@ const items = [
     icon: <FiGlobe />,
     color: "green",
     label: "Portfolio",
-    link: "https://www.abhishekmaliyal.netlify.app",
+    link: "https://abhishekmaliyal.netlify.app",
   },
   {
     icon: <GrLinkedin />,
