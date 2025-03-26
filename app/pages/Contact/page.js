@@ -10,7 +10,7 @@ const items = [
     icon: <MdOutlineAlternateEmail />,
     color: "red",
     label: "Email",
-    link: "abhishekmaliyal123@gmail.com",
+    link: "mailto:abhishekmaliyal123@gmail.com",
   },
   {
     icon: <FiGlobe />,
